@@ -45,9 +45,9 @@ export const TimeLineData = [
 ];
 export const Certificate = [
   {
-    title: 'MERN Memories',
+    title: 'Nanotechnology and Nanomaterials',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/Screenshot (146).png',
+      image: '/images/Coursera Nanotechnology_page-0001.jpg',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/Pranaam19/Landing-page',
     visit: 'https://landing-page-pranaam19.vercel.app/',
