@@ -3,14 +3,20 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
+
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Img } from '../Projects/ProjectsStyles';
+
+
+
 
 const Header = () =>  (
  <Container>
   <Div1>
     <Link href="/">
       <a style={{display: "flex", alignItems: "center", color: "white"}}>
-        <span>Pranaam</span> 
+        {/* <span><Img src="public/images/pixelcut-export.png"/>Pranaam</span>  */}
+        <span> Pranaam</span>
         </a>
     </Link>
   </Div1>
@@ -28,6 +34,11 @@ const Header = () =>  (
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#certificate">
+          <NavLink>Certifictes</NavLink>
         </Link>
       </li>        
     </Div2>

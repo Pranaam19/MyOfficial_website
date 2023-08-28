@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './CertificateStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
+import { Certificate } from '../../constants/constants';
 
-const Projects = () => (
-  <Section nopadding id="projects">
+const Certificates = () =>(
+    <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Certificate</SectionTitle>
     <GridContainer>
-      {projects.map((p, i) => {
+      {Certificate.map((p, i) => {
         return (
           <BlogCard key={i}>
           <Img src={p.image} />
@@ -36,5 +36,4 @@ const Projects = () => (
     </GridContainer>
   </Section>
 );
-
-export default Projects;
+export default Certificates;
