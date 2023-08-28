@@ -27,7 +27,7 @@ const Certificates = () =>(
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Development</ExternalLinks>
+              <ExternalLinks href={p.visit}>Developmen</ExternalLinks>
               <ExternalLinks href={p.source}>Source Code</ExternalLinks>
             </UtilityList>
           </BlogCard>
