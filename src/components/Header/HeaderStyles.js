@@ -20,6 +20,8 @@ export const Container = styled.div`
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
+  font-size:2.5rem;
+  font-weight:bold;
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -47,12 +49,15 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 2rem;
+  font-size: 2.5rem;
+  padding: 2.5rem;
+  margin-top:auto;
+  font-weight:bolder;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
-    color: #fff;
+    color: tan;
     opacity: 1;
     cursor: pointer;
   }
